@@ -5,7 +5,9 @@ The Microbit.py file is for the Microsoft Makecode Editor
 
 # Documention
 
-First put the Controller Class in the Main.py in your code.
+Put the Controller Class in the Main.py in your code.
+\
+Also make sure Pyserial is installed.
 
 Initialize a Controller:
 \
