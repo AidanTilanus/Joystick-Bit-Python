@@ -7,7 +7,7 @@ class Controller:
             self.__ser = serial.Serial(com, baud)
             self.__found = True
         except:
-            print('No controller found. Or pyserial is not installed')
+            print('No controller found. Or Pyserial is not installed')
             self.__found = False
             
         self.Button = 0
